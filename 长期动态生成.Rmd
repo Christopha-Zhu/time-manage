@@ -1,0 +1,336 @@
+---
+title: "公历八月"
+
+date:  '`r strftime(Sys.time(), format = "%Y年，%b%d日 ")`'
+output:
+  html_document: default
+---
+
+```{r include=FALSE}
+library(openxlsx)
+zhou<-read.xlsx("E:/OneDrive/Documents/时间管理/戊戌年/戊戌年秋/公历八月.xlsx", 1)
+zhou<-as.data.frame(zhou)
+zhou$date<-as.Date(zhou$date,origin="1899/12/30")
+t.2<-read.xlsx("E:/OneDrive/Documents/时间管理/戊戌年/研一开学前周工作量.xlsx", 1)
+t.1<-read.xlsx("E:/OneDrive/Documents/时间管理/戊戌年/大四下学期周工作量.xlsx", 1)
+library(plyr)
+t<-join(t.1,t.2,type="full")
+t$X1<-as.Date(t$X1,origin = "1899/12/30")
+```
+```{r,include=FALSE}
+###相关性文本
+relateword<-function(x1,x2){
+  y<-cor.test(x1,x2)
+  if(y$p.value<0.05)
+{
+  y_0="有显著的相关关系";
+}else
+{
+  y_0="没有显著的相关关系";
+}
+  y0<-paste(y_0)
+  return(y0)
+}
+
+```
+  
+  
+  
+##一、清醒时间安排情况  
+
+```{r echo=FALSE}
+attach(zhou)
+start0=starttime-today
+start1=starttime-today
+start_0=mean(na.omit(start1))
+start0[is.na(start0)]=0
+active<-Active-正能量
+othertime=24-lastsleep-purestudy-badtime-active
+aweak=24-lastsleep
+aweak_0=mean(na.omit(aweak))
+othertime[is.na(othertime)]=0
+time0<-cbind(badtime,active,purestudy,othertime,lastsleep)
+time0<-as.data.frame(time0)
+time0<-cbind(date,time0)
+library(ggplot2)
+ht<-ggplot(time0,aes(date))
+ht+
+  geom_bar(aes(weight=lastsleep+purestudy+badtime+active+othertime,fill="睡眠时间"))+
+  geom_bar(aes(weight=purestudy+badtime+active+othertime,fill="手机非正能量时间"))+
+  geom_bar(aes(weight=purestudy+active+othertime,fill="电脑非正能量时间"))+
+  geom_bar(aes(weight=purestudy+othertime,fill="其他清醒时间"))+
+  geom_bar(aes(weight=purestudy,fill="纯学习/工作时间"))+
+  labs(x="日期",y="小时")
+detach(zhou)
+```
+    
+图中反映了本期`r length(zhou$ln)`天每日时间的构成及其变化，
+  
+启动时间，反映了本人自起床开始到做本日第一件事，平均要花`r round(start_0,2)`小时，占全部清醒时间的`r round(start_0/aweak_0,4)*100`%；
+  
+纯学习时间，平均为`r round(mean(zhou$purestudy),2)`小时，占清醒时间比重为`r round(mean(zhou$purestudy)/aweak_0,4)*100`%；
+  
+手机非正能量时间每天为`r round(mean(zhou$badtime),2)`小时,占清醒时间比重为`r round(mean(zhou$badtime)/aweak_0,4)*100`%；
+  
+电脑非正能量时间平均每天为`r round(mean(active),2)`小时,占清醒时间比重为`r round(mean(active)/aweak_0,4)*100`%。
+  
+  
+
+##二、睡眠状况
+  
+```{r zhou,echo=FALSE}
+attach(zhou)
+plot(ln-12,type = "l",ylab = "钟点",xlab="日期",ylim = c(-4,10),col=1,axes=FALSE,main = "作息时间")
+axis(1,1:length(zhou$date),zhou$date)
+axis(2,-4:10,c("8","9","10","11","12","1","2","3","4","5","6","7","8","9","10"))
+box()
+lines(today,col=5)
+legend("bottomleft",c("起床时间","入睡时间"),pch=c(15,15),col=c(5,1),cex=1)
+detach(zhou)
+```
+
+```{r,echo=FALSE}
+attach(zhou)
+shui=cor.test(ln,today)
+if(shui$p.value<0.05)
+{
+  shui_0="入睡时间和起床时间有显著的相关关系";
+}else
+{
+  shui_0="入睡时间和起床时间没有显著的相关关系";
+}
+if(sd(ln)<sd(today))
+{
+  shui_1="相较而言，起床时间的波动要比入睡时间更大";
+}else
+{
+  shui_1="相较而言，起床时间的波动要比入睡时间更小";
+}
+detach(zhou)
+```
+
+“作息时间”图反映了本期本人每日的入睡与起床时间，在这一期间，本人平均每天`r floor(mean(zhou$ln))`点`r round((mean(zhou$ln)-floor(mean(zhou$ln)))*60)`分入睡，`r floor(mean(zhou$today))`点`r round((mean(zhou$today)-floor(mean(zhou$today)))*60)`分起床，睡眠时间平均为`r round(mean(zhou$lastsleep),2)`小时；
+  
+`r shui_0`，`r shui_1`。
+  
+  
+```{r,echo=FALSE}
+plot(zhou$date,zhou$lastsleep,ylim=c(0,11),col=1,main = "睡眠情况")
+points(zhou$date,zhou$deepsleep,col=5)
+fls<-lm(zhou$lastsleep~c(1:length(zhou$date)))
+fls_0<-predict(fls)
+lines(zhou$date,fls_0,col=1)
+ds<-zhou$deepsleep
+ds[is.na(ds)]=mean(na.omit(ds))
+fds<-lm(ds~c(1:length(zhou$date)))
+fds_0<-predict(fds)
+lines(zhou$date,fds_0,col=5)
+```
+  
+```{r, include=FALSE}
+if(fls$coefficients[2]<0 && summary(fls)$coefficients[2,4]<0.05 )
+{
+  fls_1="趋向显著减少"
+}else if(fls$coefficients[2]>0 && summary(fls)$coefficients[2,4]<0.05 ){
+    fls_1="趋向显著增加"
+}else{
+  fls_1="无明显变化"
+}
+if(fds$coefficients[2]<0 && summary(fds)$coefficients[2,4]<0.05 )
+{
+  fds_1="趋向显著减少"
+}else if(fds$coefficients[2]>0 && summary(fds)$coefficients[2,4]<0.05 ){
+    fds_1="趋向显著增加"
+}else{
+  fds_1="无明显变化"
+}
+smzl<-ds/zhou$lastsleep
+smzl_0<-coefficients(lm(smzl~c(1:length(zhou$date))))[2]
+if(smzl_0<0)
+{
+  smzl_1="坏"
+}else{
+  smzl_1="好"
+}
+```
+从线性趋势上看，总睡眠时间`r fls_1`，深睡眠时间`r fds_1`，睡眠质量向`r smzl_1`发展。 
+  
+  
+##三、学习状况
+  
+```{r echo=FALSE}
+attach(zhou)
+study0<-cbind(purestudy,holestudy)
+study0<-as.data.frame(study0)
+study0<-cbind(date,study0)
+library(ggplot2)
+st<-ggplot(study0,aes(date))
+st+
+  geom_bar(aes(weight=holestudy,fill="学习间歇"))+
+  geom_bar(aes(weight=purestudy,fill="纯学习/工作时间"))+
+  labs(x="日期",y="小时")
+detach(zhou)
+```
+  
+```{r, include=FALSE}
+holes<-lm(zhou$holestudy~c(1:length(zhou$date)))
+if(holes$coefficients[2]<0 && summary(holes)$coefficients[2,4]<0.05 )
+{
+  holes_1="显著减少"
+}else if(holes$coefficients[2]>0 && summary(holes)$coefficients[2,4]<0.05 ){
+    holes_1="显著增加"
+}else{
+  holes_1="无明显变化"
+}
+
+purs<-lm(zhou$purestudy~c(1:length(zhou$date)))
+if(purs$coefficients[2]<0 && summary(purs)$coefficients[2,4]<0.05 )
+{
+  purs_1="显著减少"
+}else if(purs$coefficients[2]>0 && summary(purs)$coefficients[2,4]<0.05 ){
+    purs_1="显著增加"
+}else{
+  purs_1="无明显变化"
+}
+
+comt<-mean(na.omit(zhou$holestudy))/mean(na.omit(zhou$purestudy))
+if(comt>1.7)
+{
+  comt_0="并未处于学习状态"}else if(comt>1.45)
+  {
+    comt_0="学习态度需要做出改进" }else if(comt>1.32)
+  {
+    comt_0="时间利用率有待提高" }else if(comt>1.27)
+  {
+    comt_0="处于适度轻松的学习状态"}else if(comt>1.17)
+  {
+    comt_0="学习状态良好"}else if(comt>1.12)
+  {
+    comt_0="处于适度紧张学习状态"}else if(comt>1.07)
+  {
+    comt_0="需要注意休息"}else
+  {
+    comt_0="统计方法可能有误"
+    }
+
+```
+```{r, include=FALSE}
+tt<-length(na.omit(t$核心时间))
+t0<-t[c(1:tt),]
+zone<-which(t$X1>=zhou$date[1]&t$X1<zhou$date[length(zhou$date)]+7)
+time=7*mean(zhou$purestudy)
+if(time>(mean(t$合计[0:tt])+2*sd(na.omit(t$合计[0:tt]))))
+{
+  timeuse="用于学习的时间远高于以往平均水平"
+}else if(time>(mean(na.omit(t$合计[0:tt]))+sd(na.omit(t$合计[0:tt]))))
+{
+  timeuse="用于学习的时间值得肯定"
+}else if(time>(mean(na.omit(t$合计[0:tt]))-0.5*sd(na.omit(t$合计[0:tt]))))
+{
+  timeuse="用于学习的时间达到了平均水平"
+}else if(time>(mean(na.omit(t$合计[0:tt]))-2*sd(na.omit(t$合计[0:tt]))))
+{
+  timeuse="用于学习的时间较平常要少"
+}else
+{
+  timeuse="几乎没有学习"
+}
+
+```
+本期平均每日毛学习/工作时间为`r round(mean(na.omit(zhou$holestudy)),2)`小时，呈`r holes_1`趋势；
+  
+  纯学习/工作时间为`r round(mean(na.omit(zhou$purestudy)),2)`小时，呈`r purs_1`趋势，`r timeuse`；
+  
+  时间利用比为`r round(comt,2)`，`r comt_0`。  
+  
+###核心时间
+
+```{r,include=FALSE}
+time0=mean(t0$核心时间[zone])
+if(time0>(mean(t$核心时间[1:tt])+2*sd(na.omit(t$核心时间[1:tt]))))
+{
+  timeuse1="核心时间远高于以往平均水平"
+}else if(time0>(mean(na.omit(t$核心时间[1:tt]))+sd(na.omit(t$核心时间[1:tt]))))
+{
+  timeuse1="核心时间值得肯定"
+}else if(time0>(mean(na.omit(t$核心时间[1:tt]))-0.5*sd(na.omit(t$核心时间[1:tt]))))
+{
+  timeuse1="核心时间达到了平均水平"
+}else if(time0>(mean(na.omit(t$核心时间[1:tt]))-2*sd(na.omit(t$核心时间[1:tt]))))
+{
+  timeuse1="核心时间较平常要少"
+}else
+{
+  timeuse1="几乎没有进步"
+}
+```
+  
+核心时间指的是完全由自主学习构成，推动个人发展的时间；本期平均每周的核心时间为`r round(time0,2)`小时，占纯学习时间的`r round(time0/mean(t0$合计[zone])*100,2)`%；
+  
+  就今年而言，本期`r timeuse1`。
+  
+
+##四、娱乐时间
+  
+  
+```{r echo=FALSE}
+attach(zhou)
+plot(badtime,type="l",ylab = "小时",axes=FALSE,xlab="日期",ylim = c(0,14),col=5)
+axis(1,1:length(zhou$date),zhou$date)
+axis(2)
+
+lines(active)
+legend("topright",c("电脑非正能量时间","手机非正能量时间"),col=c(1,5),pch=c(1,1))
+detach(zhou)
+```
+
+```{r, include=FALSE}
+holep<-lm(zhou$holephone~c(1:length(zhou$date)))
+if(holep$coefficients[2]<0 && summary(holep)$coefficients[2,4]<0.05 )
+{
+  holep_1="趋向显著减少"
+}else if(holep$coefficients[2]>0 && summary(holep)$coefficients[2,4]<0.05 ){
+    holep_1="趋向显著增加"
+}else{
+  holep_1="无明显变化"
+}
+
+bt<-lm(zhou$badtime~c(1:length(zhou$date)))
+if(bt$coefficients[2]<0 && summary(bt)$coefficients[2,4]<0.05 )
+{
+  bt_1="趋向显著减少"
+}else if(bt$coefficients[2]>0 && summary(bt)$coefficients[2,4]<0.05 ){
+    bt_1="趋向显著增加"
+}else{
+  bt_1="无明显变化"
+}
+
+holcm<-lm(zhou$Active~c(1:length(zhou$date)))
+if(holcm$coefficients[2]<0 && summary(holcm)$coefficients[2,4]<0.05 )
+{
+  holcm_1="趋向显著减少"
+}else if(holcm$coefficients[2]>0 && summary(holcm)$coefficients[2,4]<0.05 ){
+    holcm_1="趋向显著增加"
+}else{
+  holcm_1="无明显变化"
+}
+```
+
+```{r,include=FALSE}
+attach(zhou)
+infulns=paste("与纯学习时间",relateword(badtime,purestudy))
+infulnt=paste("与纯学习时间",relateword(active,purestudy))
+s=active+badtime
+inf=paste("与纯学习时间",relateword(s,purestudy))
+detach(zhou)
+```
+
+平均每日使用手机时间为`r round(mean(na.omit(zhou$holephone))/60,2)`小时，本期内`r holep_1`；其中非正能量时间`r round(mean(na.omit(zhou$badtime)),2)`小时，本期内`r holcm_1`，`r infulns`。
+  
+  平均每日使用电脑时间为`r round(mean(na.omit(zhou$Active)),2)`小时；其中非正能量时间为`r round(mean(na.omit(active)),2)`小时，本期内`r holcm_1`，`r infulnt`。
+  
+ 两者之和 `r inf`。
+  
+  
+  
+  

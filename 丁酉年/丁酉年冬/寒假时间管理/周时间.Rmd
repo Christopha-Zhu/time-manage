@@ -1,0 +1,39 @@
+---
+title: "一月第四周"
+output: html_document
+---
+
+
+
+```{r echo=FALSE,warning=FALSE}
+library(openxlsx)
+t<-read.xlsx("c:/Users/sky/Documents/R/寒假周时间.xlsx")
+date<-as.Date(t$X1,origin = "1899/12/30")
+```
+  
+#本期每日时间
+```{r,echo=FALSE,warning=FALSE}
+attach(t)
+untime=24-holesleep-purestudy-badphone
+holetime=untime+holesleep+purestudy+badphone
+h=cbind(holesleep,purestudy,badphone,untime,holetime)
+h=as.data.frame(h)
+h<-cbind(date,h)
+library(ggplot2)
+ht<-ggplot(h,aes(date))
+ht+
+  geom_bar(aes(weight=holetime,fill="睡眠时间"))+
+  geom_bar(aes(weight=purestudy+badphone+untime,fill="手机非正能量时间"))+
+  geom_bar(aes(weight=purestudy+untime,fill="其他清醒时间"))+
+  geom_bar(aes(weight=purestudy,fill="纯学习/工作时间"))+
+  labs(x="日期",y="小时")
+  
+detach(t)
+```
+
+
+  本期平均每日睡眠时间为`r round(mean(t$holesleep),2)`小时，其中深睡眠时间为`r round(mean(t$deepsleep),2)`小时；
+  
+  平均每日纯学习或工作时间为`r round(mean(t$purestudy),2)`小时，占全部清醒时间的`r round(mean(t$purestudy)/mean((holetime-t$holesleep))*100,2)`%；
+  
+  平均每日手机非正能量时间为`r round(mean(t$badphone),2)`小时，占全部清醒时间的`r round(mean(t$badphone)/mean((holetime-t$holesleep))*100,2)`%。

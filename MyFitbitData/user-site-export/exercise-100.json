@@ -1,0 +1,3129 @@
+[{
+  "logId" : 18713387113,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 7,
+    "name" : "fairly"
+  },{
+    "minutes" : 10,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 96,
+  "calories" : 121,
+  "duration" : 1075000,
+  "activeDuration" : 1075000,
+  "steps" : 1644,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 11
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 7
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/18/18 08:08:22",
+  "startTime" : "12/18/18 04:06:21",
+  "originalStartTime" : "12/18/18 04:06:21",
+  "originalDuration" : 1075000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18713387117,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 16,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 103,
+  "calories" : 145,
+  "duration" : 1178000,
+  "activeDuration" : 1178000,
+  "steps" : 1917,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 4
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 16
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/18/18 08:08:22",
+  "startTime" : "12/18/18 05:30:49",
+  "originalStartTime" : "12/18/18 05:30:49",
+  "originalDuration" : 1178000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225036,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 5,
+    "name" : "sedentary"
+  },{
+    "minutes" : 11,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "calories" : 223,
+  "duration" : 1996000,
+  "activeDuration" : 1996000,
+  "steps" : 2533,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:22",
+  "startTime" : "12/21/18 03:25:27",
+  "originalStartTime" : "12/21/18 03:25:27",
+  "originalDuration" : 1996000,
+  "elevationGain" : 36.576,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225040,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "calories" : 155,
+  "duration" : 1280000,
+  "activeDuration" : 1280000,
+  "steps" : 1760,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/21/18 10:15:10",
+  "originalStartTime" : "12/21/18 10:15:10",
+  "originalDuration" : 1280000,
+  "elevationGain" : 30.48,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225041,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 9,
+    "name" : "very"
+  }],
+  "calories" : 108,
+  "duration" : 922000,
+  "activeDuration" : 922000,
+  "steps" : 1549,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/21/18 11:32:49",
+  "originalStartTime" : "12/21/18 11:32:49",
+  "originalDuration" : 922000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225047,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 11,
+    "name" : "very"
+  }],
+  "calories" : 116,
+  "duration" : 921000,
+  "activeDuration" : 921000,
+  "steps" : 1406,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/22/18 05:24:30",
+  "originalStartTime" : "12/22/18 05:24:30",
+  "originalDuration" : 921000,
+  "elevationGain" : 18.288,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225053,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 8,
+    "name" : "very"
+  }],
+  "calories" : 117,
+  "duration" : 1075000,
+  "activeDuration" : 1075000,
+  "steps" : 1786,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/22/18 11:10:04",
+  "originalStartTime" : "12/22/18 11:10:04",
+  "originalDuration" : 1075000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225055,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 5,
+    "name" : "sedentary"
+  },{
+    "minutes" : 32,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 8,
+    "name" : "very"
+  }],
+  "calories" : 263,
+  "duration" : 2866000,
+  "activeDuration" : 2866000,
+  "steps" : 3063,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/22/18 11:53:35",
+  "originalStartTime" : "12/22/18 11:53:35",
+  "originalDuration" : 2866000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225059,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "calories" : 137,
+  "duration" : 1024000,
+  "activeDuration" : 1024000,
+  "steps" : 1676,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/23/18 01:23:17",
+  "originalStartTime" : "12/23/18 01:23:17",
+  "originalDuration" : 1024000,
+  "elevationGain" : 36.576,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225061,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 9,
+    "name" : "very"
+  }],
+  "calories" : 146,
+  "duration" : 1382000,
+  "activeDuration" : 1382000,
+  "steps" : 2118,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/23/18 02:34:58",
+  "originalStartTime" : "12/23/18 02:34:58",
+  "originalDuration" : 1382000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225063,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "calories" : 135,
+  "duration" : 1024000,
+  "activeDuration" : 1024000,
+  "steps" : 1663,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/23/18 03:32:08",
+  "originalStartTime" : "12/23/18 03:32:08",
+  "originalDuration" : 1024000,
+  "elevationGain" : 36.576,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225065,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 104,
+  "calories" : 170,
+  "duration" : 1485000,
+  "activeDuration" : 1485000,
+  "steps" : 2240,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 6
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 17
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/27/18 16:39:23",
+  "startTime" : "12/23/18 05:26:28",
+  "originalStartTime" : "12/23/18 05:26:28",
+  "originalDuration" : 1485000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225071,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 12,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 114,
+  "calories" : 157,
+  "duration" : 1280000,
+  "activeDuration" : 1280000,
+  "steps" : 1586,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 2
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 19
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/27/18 16:39:24",
+  "startTime" : "12/24/18 05:24:10",
+  "originalStartTime" : "12/24/18 05:24:10",
+  "originalDuration" : 1280000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225080,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 5,
+    "name" : "sedentary"
+  },{
+    "minutes" : 12,
+    "name" : "lightly"
+  },{
+    "minutes" : 14,
+    "name" : "fairly"
+  },{
+    "minutes" : 50,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 96,
+  "calories" : 548,
+  "duration" : 4915000,
+  "activeDuration" : 4915000,
+  "steps" : 7158,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 50
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 32
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/27/18 16:39:24",
+  "startTime" : "12/25/18 08:36:26",
+  "originalStartTime" : "12/25/18 08:36:26",
+  "originalDuration" : 4915000,
+  "elevationGain" : 18.288,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225082,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 8,
+    "name" : "lightly"
+  },{
+    "minutes" : 13,
+    "name" : "fairly"
+  },{
+    "minutes" : 39,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 97,
+  "calories" : 435,
+  "duration" : 3584000,
+  "activeDuration" : 3584000,
+  "steps" : 5563,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 28
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 24
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 1
+  }],
+  "lastModified" : "12/27/18 16:39:24",
+  "startTime" : "12/25/18 11:28:47",
+  "originalStartTime" : "12/25/18 11:28:47",
+  "originalDuration" : 3584000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225085,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 7,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 14,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 107,
+  "calories" : 236,
+  "duration" : 2253000,
+  "activeDuration" : 2253000,
+  "steps" : 2286,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 11
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 23
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 1
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 2
+  }],
+  "lastModified" : "12/27/18 16:39:24",
+  "startTime" : "12/26/18 04:57:24",
+  "originalStartTime" : "12/26/18 04:57:24",
+  "originalDuration" : 2253000,
+  "elevationGain" : 27.432,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18864225089,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 6,
+    "name" : "sedentary"
+  },{
+    "minutes" : 12,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 7,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 92,
+  "calories" : 171,
+  "duration" : 1843000,
+  "activeDuration" : 1843000,
+  "steps" : 1891,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 18
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 13
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/27/18 16:39:25",
+  "startTime" : "12/26/18 10:51:30",
+  "originalStartTime" : "12/26/18 10:51:30",
+  "originalDuration" : 1843000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18915352460,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 9,
+    "name" : "fairly"
+  },{
+    "minutes" : 17,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 108,
+  "calories" : 216,
+  "duration" : 1791000,
+  "activeDuration" : 1791000,
+  "steps" : 2412,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 5
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 25
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/30/18 00:57:24",
+  "startTime" : "12/28/18 08:34:27",
+  "originalStartTime" : "12/28/18 08:34:27",
+  "originalDuration" : 1791000,
+  "elevationGain" : 33.528,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18915352464,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 9,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 108,
+  "calories" : 125,
+  "duration" : 1024000,
+  "activeDuration" : 1024000,
+  "steps" : 1408,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 2
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 14
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/30/18 00:57:24",
+  "startTime" : "12/29/18 10:46:09",
+  "originalStartTime" : "12/29/18 10:46:09",
+  "originalDuration" : 1024000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18915663283,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 30,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 124,
+  "calories" : 314,
+  "duration" : 2256000,
+  "activeDuration" : 2256000,
+  "steps" : 2684,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 1
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 32
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 3
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "12/30/18 01:24:40",
+  "startTime" : "12/30/18 00:42:04",
+  "originalStartTime" : "12/30/18 00:42:04",
+  "originalDuration" : 2256000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 18986258728,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 10,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 18,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 97,
+  "calories" : 259,
+  "duration" : 2355000,
+  "activeDuration" : 2355000,
+  "steps" : 3112,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 19
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 18
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 2
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/03/19 11:15:31",
+  "startTime" : "01/03/19 05:11:12",
+  "originalStartTime" : "01/03/19 05:11:12",
+  "originalDuration" : 2355000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19205915353,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 4,
+    "name" : "lightly"
+  },{
+    "minutes" : 3,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 117,
+  "calories" : 177,
+  "duration" : 1433000,
+  "activeDuration" : 1433000,
+  "steps" : 1548,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 3
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 21
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/14/19 00:36:29",
+  "startTime" : "01/11/19 02:44:21",
+  "originalStartTime" : "01/11/19 02:44:21",
+  "originalDuration" : 1433000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19205915358,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 6,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 8,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 106,
+  "calories" : 154,
+  "duration" : 1229000,
+  "activeDuration" : 1229000,
+  "steps" : 1924,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 3
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 17
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/14/19 00:36:29",
+  "startTime" : "01/12/19 07:01:18",
+  "originalStartTime" : "01/12/19 07:01:18",
+  "originalDuration" : 1229000,
+  "elevationGain" : 27.432,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19306043711,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 7,
+    "name" : "fairly"
+  },{
+    "minutes" : 19,
+    "name" : "very"
+  }],
+  "calories" : 214,
+  "duration" : 1741000,
+  "activeDuration" : 1741000,
+  "steps" : 2799,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "01/18/19 06:17:48",
+  "startTime" : "01/14/19 07:20:56",
+  "originalStartTime" : "01/14/19 07:20:56",
+  "originalDuration" : 1741000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19306043724,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 17,
+    "name" : "lightly"
+  },{
+    "minutes" : 3,
+    "name" : "fairly"
+  },{
+    "minutes" : 19,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 113,
+  "calories" : 288,
+  "duration" : 2354000,
+  "activeDuration" : 2354000,
+  "steps" : 3048,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 3
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 36
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/18/19 06:17:48",
+  "startTime" : "01/17/19 07:01:08",
+  "originalStartTime" : "01/17/19 07:01:08",
+  "originalDuration" : 2354000,
+  "elevationGain" : 33.528,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19306043725,
+  "activityName" : "户外骑行",
+  "activityTypeId" : 1071,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 23,
+    "name" : "lightly"
+  },{
+    "minutes" : 26,
+    "name" : "fairly"
+  },{
+    "minutes" : 7,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 92,
+  "calories" : 333,
+  "duration" : 3584000,
+  "activeDuration" : 3584000,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 45
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 15
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/18/19 06:17:49",
+  "startTime" : "01/17/19 07:40:22",
+  "originalStartTime" : "01/17/19 07:40:22",
+  "originalDuration" : 3584000,
+  "elevationGain" : 42.976,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19323932673,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 14,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 21,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 106,
+  "calories" : 313,
+  "duration" : 2611000,
+  "activeDuration" : 2611000,
+  "steps" : 4081,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 15
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 28
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/19/19 01:33:23",
+  "startTime" : "01/19/19 00:25:09",
+  "originalStartTime" : "01/19/19 00:25:09",
+  "originalDuration" : 2611000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19343140693,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 11,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 114,
+  "calories" : 128,
+  "duration" : 972000,
+  "activeDuration" : 972000,
+  "steps" : 1561,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 0
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 16
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/20/19 01:24:38",
+  "startTime" : "01/20/19 01:01:40",
+  "originalStartTime" : "01/20/19 01:01:40",
+  "originalDuration" : 972000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19383556192,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 6,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 7,
+    "name" : "fairly"
+  },{
+    "minutes" : 19,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 105,
+  "calories" : 241,
+  "duration" : 2099000,
+  "activeDuration" : 2099000,
+  "steps" : 2985,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 10
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 25
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/22/19 04:39:37",
+  "startTime" : "01/20/19 09:31:53",
+  "originalStartTime" : "01/20/19 09:31:53",
+  "originalDuration" : 2099000,
+  "elevationGain" : 27.432,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19383556196,
+  "activityName" : "户外骑行",
+  "activityTypeId" : 1071,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 14,
+    "name" : "fairly"
+  },{
+    "minutes" : 23,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 118,
+  "calories" : 282,
+  "duration" : 2252000,
+  "activeDuration" : 2252000,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 1
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 37
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/22/19 04:39:38",
+  "startTime" : "01/20/19 23:51:57",
+  "originalStartTime" : "01/20/19 23:51:57",
+  "originalDuration" : 2252000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19383556198,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 23,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 122,
+  "calories" : 218,
+  "duration" : 1485000,
+  "activeDuration" : 1485000,
+  "steps" : 2794,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 0
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 25
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/22/19 04:39:38",
+  "startTime" : "01/21/19 04:52:17",
+  "originalStartTime" : "01/21/19 04:52:17",
+  "originalDuration" : 1485000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19383556205,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 1,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 123,
+  "calories" : 128,
+  "duration" : 922000,
+  "activeDuration" : 922000,
+  "steps" : 1519,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 0
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 15
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/22/19 04:39:38",
+  "startTime" : "01/22/19 01:32:04",
+  "originalStartTime" : "01/22/19 01:32:04",
+  "originalDuration" : 922000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19410622484,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 3,
+    "name" : "fairly"
+  },{
+    "minutes" : 17,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 121,
+  "calories" : 163,
+  "duration" : 1228000,
+  "activeDuration" : 1228000,
+  "steps" : 1504,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 0
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 20
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/23/19 12:40:42",
+  "startTime" : "01/23/19 01:55:23",
+  "originalStartTime" : "01/23/19 01:55:23",
+  "originalDuration" : 1228000,
+  "elevationGain" : 17.83,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19410622488,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 9,
+    "name" : "fairly"
+  },{
+    "minutes" : 48,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 111,
+  "calories" : 470,
+  "duration" : 3686000,
+  "activeDuration" : 3686000,
+  "steps" : 5848,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 4
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 57
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/23/19 12:40:42",
+  "startTime" : "01/23/19 04:08:29",
+  "originalStartTime" : "01/23/19 04:08:29",
+  "originalDuration" : 3686000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19509982017,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 12,
+    "name" : "lightly"
+  },{
+    "minutes" : 6,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 105,
+  "calories" : 226,
+  "duration" : 1945000,
+  "activeDuration" : 1945000,
+  "steps" : 2477,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 10
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 23
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/28/19 01:55:18",
+  "startTime" : "01/26/19 07:40:57",
+  "originalStartTime" : "01/26/19 07:40:57",
+  "originalDuration" : 1945000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19509982025,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 10,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 93,
+  "calories" : 100,
+  "duration" : 921000,
+  "activeDuration" : 921000,
+  "steps" : 1264,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 13
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 2
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/28/19 01:55:18",
+  "startTime" : "01/27/19 06:06:29",
+  "originalStartTime" : "01/27/19 06:06:29",
+  "originalDuration" : 921000,
+  "elevationGain" : 0.0,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19509982031,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 4,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 26,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 102,
+  "calories" : 295,
+  "duration" : 2355000,
+  "activeDuration" : 2355000,
+  "steps" : 3824,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 9
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 30
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/28/19 01:55:18",
+  "startTime" : "01/28/19 01:07:18",
+  "originalStartTime" : "01/28/19 01:07:18",
+  "originalDuration" : 2355000,
+  "elevationGain" : 0.0,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19535832934,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 18,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 125,
+  "calories" : 185,
+  "duration" : 1177000,
+  "activeDuration" : 1177000,
+  "steps" : 2336,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 0
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 20
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/29/19 01:09:53",
+  "startTime" : "01/29/19 00:44:53",
+  "originalStartTime" : "01/29/19 00:44:53",
+  "originalDuration" : 1177000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19540998716,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 6,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 26,
+    "name" : "fairly"
+  },{
+    "minutes" : 56,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 104,
+  "calories" : 659,
+  "duration" : 5837000,
+  "activeDuration" : 5837000,
+  "steps" : 8218,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 26
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 71
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/29/19 09:24:45",
+  "startTime" : "01/29/19 06:03:08",
+  "originalStartTime" : "01/29/19 06:03:08",
+  "originalDuration" : 5837000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19564586527,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 4,
+    "name" : "sedentary"
+  },{
+    "minutes" : 8,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 9,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 97,
+  "calories" : 148,
+  "duration" : 1382000,
+  "activeDuration" : 1382000,
+  "steps" : 1860,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 12
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 11
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/30/19 11:55:50",
+  "startTime" : "01/30/19 02:03:57",
+  "originalStartTime" : "01/30/19 02:03:57",
+  "originalDuration" : 1382000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19564586531,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 3,
+    "name" : "fairly"
+  },{
+    "minutes" : 21,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 117,
+  "calories" : 211,
+  "duration" : 1433000,
+  "activeDuration" : 1433000,
+  "steps" : 2700,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 0
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 24
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/30/19 11:55:51",
+  "startTime" : "01/30/19 08:51:48",
+  "originalStartTime" : "01/30/19 08:51:48",
+  "originalDuration" : 1433000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19580205237,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 16,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 122,
+  "calories" : 173,
+  "duration" : 1177000,
+  "activeDuration" : 1177000,
+  "steps" : 2170,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 1
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 18
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/31/19 03:12:23",
+  "startTime" : "01/31/19 00:39:11",
+  "originalStartTime" : "01/31/19 00:39:11",
+  "originalDuration" : 1177000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19584327830,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 3,
+    "name" : "fairly"
+  },{
+    "minutes" : 18,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 122,
+  "calories" : 187,
+  "duration" : 1280000,
+  "activeDuration" : 1280000,
+  "steps" : 2302,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 1
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 20
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "01/31/19 10:53:35",
+  "startTime" : "01/31/19 09:00:10",
+  "originalStartTime" : "01/31/19 09:00:10",
+  "originalDuration" : 1280000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19688568590,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "calories" : 160,
+  "duration" : 1279000,
+  "activeDuration" : 1279000,
+  "steps" : 1947,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "02/05/19 12:19:37",
+  "startTime" : "02/01/19 12:49:16",
+  "originalStartTime" : "02/01/19 12:49:16",
+  "originalDuration" : 1279000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19688568592,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 1,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 96,
+  "calories" : 136,
+  "duration" : 1126000,
+  "activeDuration" : 1126000,
+  "steps" : 1881,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 12
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 6
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/05/19 12:19:37",
+  "startTime" : "02/01/19 23:52:12",
+  "originalStartTime" : "02/01/19 23:52:12",
+  "originalDuration" : 1126000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19688568595,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 5,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 92,
+  "calories" : 95,
+  "duration" : 973000,
+  "activeDuration" : 973000,
+  "steps" : 1164,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 11
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 5
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/05/19 12:19:38",
+  "startTime" : "02/02/19 05:59:06",
+  "originalStartTime" : "02/02/19 05:59:06",
+  "originalDuration" : 973000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19688568599,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 14,
+    "name" : "fairly"
+  },{
+    "minutes" : 33,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 107,
+  "calories" : 367,
+  "duration" : 2816000,
+  "activeDuration" : 2816000,
+  "steps" : 4565,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 8
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 39
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/05/19 12:19:38",
+  "startTime" : "02/02/19 11:39:32",
+  "originalStartTime" : "02/02/19 11:39:32",
+  "originalDuration" : 2816000,
+  "elevationGain" : 27.432,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19773657241,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 18,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 12,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 101,
+  "calories" : 263,
+  "duration" : 2611000,
+  "activeDuration" : 2611000,
+  "steps" : 2614,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 15
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 29
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/09/19 11:08:34",
+  "startTime" : "02/08/19 01:31:56",
+  "originalStartTime" : "02/08/19 01:31:56",
+  "originalDuration" : 2611000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19829796844,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 5,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 117,
+  "calories" : 229,
+  "duration" : 1741000,
+  "activeDuration" : 1741000,
+  "steps" : 2400,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 6
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 23
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/12/19 01:37:18",
+  "startTime" : "02/12/19 00:53:51",
+  "originalStartTime" : "02/12/19 00:53:51",
+  "originalDuration" : 1741000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19831518570,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 128,
+  "calories" : 147,
+  "duration" : 922000,
+  "activeDuration" : 922000,
+  "steps" : 1758,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 1
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 14
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 1
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/12/19 04:21:52",
+  "startTime" : "02/12/19 03:29:53",
+  "originalStartTime" : "02/12/19 03:29:53",
+  "originalDuration" : 922000,
+  "elevationGain" : 0.0,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 19835226316,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 1,
+    "name" : "fairly"
+  },{
+    "minutes" : 18,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 126,
+  "calories" : 191,
+  "duration" : 1178000,
+  "activeDuration" : 1178000,
+  "steps" : 2221,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 1
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 18
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/12/19 10:52:20",
+  "startTime" : "02/12/19 08:55:07",
+  "originalStartTime" : "02/12/19 08:55:07",
+  "originalDuration" : 1178000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20069183818,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 7,
+    "name" : "fairly"
+  },{
+    "minutes" : 80,
+    "name" : "very"
+  }],
+  "calories" : 836,
+  "duration" : 5786000,
+  "activeDuration" : 5786000,
+  "steps" : 9762,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "02/22/19 11:14:00",
+  "startTime" : "02/16/19 06:19:36",
+  "originalStartTime" : "02/16/19 06:19:36",
+  "originalDuration" : 5786000,
+  "elevationGain" : 54.864,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20069183826,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 20,
+    "name" : "very"
+  }],
+  "calories" : 249,
+  "duration" : 2253000,
+  "activeDuration" : 2253000,
+  "steps" : 3038,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "lastModified" : "02/22/19 11:14:00",
+  "startTime" : "02/18/19 10:25:35",
+  "originalStartTime" : "02/18/19 10:25:35",
+  "originalDuration" : 2253000,
+  "elevationGain" : 15.24,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20069183833,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 9,
+    "name" : "sedentary"
+  },{
+    "minutes" : 4,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 17,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 90,
+  "calories" : 196,
+  "duration" : 2048000,
+  "activeDuration" : 2048000,
+  "steps" : 2279,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 28
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 7
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/22/19 11:14:01",
+  "startTime" : "02/19/19 09:55:57",
+  "originalStartTime" : "02/19/19 09:55:57",
+  "originalDuration" : 2048000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20069183835,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 24,
+    "name" : "lightly"
+  },{
+    "minutes" : 17,
+    "name" : "fairly"
+  },{
+    "minutes" : 49,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 93,
+  "calories" : 615,
+  "duration" : 5580000,
+  "activeDuration" : 5580000,
+  "steps" : 7859,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 73
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 20
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/22/19 11:14:01",
+  "startTime" : "02/19/19 13:13:03",
+  "originalStartTime" : "02/19/19 13:13:03",
+  "originalDuration" : 5580000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20069183839,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 15,
+    "name" : "fairly"
+  },{
+    "minutes" : 24,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 107,
+  "calories" : 302,
+  "duration" : 2406000,
+  "activeDuration" : 2406000,
+  "steps" : 3349,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 5
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 35
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/22/19 11:14:01",
+  "startTime" : "02/22/19 03:33:21",
+  "originalStartTime" : "02/22/19 03:33:21",
+  "originalDuration" : 2406000,
+  "elevationGain" : 54.864,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20127301373,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 10,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 105,
+  "calories" : 136,
+  "duration" : 1229000,
+  "activeDuration" : 1229000,
+  "steps" : 1693,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 4
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 16
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/25/19 09:39:39",
+  "startTime" : "02/25/19 07:21:15",
+  "originalStartTime" : "02/25/19 07:21:15",
+  "originalDuration" : 1229000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20127301374,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 8,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 102,
+  "calories" : 158,
+  "duration" : 1536000,
+  "activeDuration" : 1536000,
+  "steps" : 1858,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 8
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 18
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/25/19 09:39:39",
+  "startTime" : "02/25/19 08:41:28",
+  "originalStartTime" : "02/25/19 08:41:28",
+  "originalDuration" : 1536000,
+  "elevationGain" : 18.288,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20202048856,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 10,
+    "name" : "sedentary"
+  },{
+    "minutes" : 18,
+    "name" : "lightly"
+  },{
+    "minutes" : 32,
+    "name" : "fairly"
+  },{
+    "minutes" : 62,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 104,
+  "calories" : 792,
+  "duration" : 7372000,
+  "activeDuration" : 7372000,
+  "steps" : 9877,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 33
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 89
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 1
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "02/28/19 09:36:25",
+  "startTime" : "02/28/19 07:08:57",
+  "originalStartTime" : "02/28/19 07:08:57",
+  "originalDuration" : 7372000,
+  "elevationGain" : 60.96,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20266278574,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 119,
+  "calories" : 136,
+  "duration" : 1075000,
+  "activeDuration" : 1075000,
+  "steps" : 1673,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 0
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 18
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "03/03/19 07:22:53",
+  "startTime" : "03/01/19 10:02:26",
+  "originalStartTime" : "03/01/19 10:02:26",
+  "originalDuration" : 1075000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+},{
+  "logId" : 20266278575,
+  "activityName" : "走路",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 6,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 17,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 112,
+  "calories" : 241,
+  "duration" : 2252000,
+  "activeDuration" : 2252000,
+  "steps" : 2661,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "超出范围",
+    "min" : 30,
+    "max" : 99,
+    "minutes" : 0
+  },{
+    "name" : "燃烧脂肪",
+    "min" : 99,
+    "max" : 138,
+    "minutes" : 37
+  },{
+    "name" : "有氧运动",
+    "min" : 138,
+    "max" : 168,
+    "minutes" : 0
+  },{
+    "name" : "高峰运动",
+    "min" : 168,
+    "max" : 220,
+    "minutes" : 0
+  }],
+  "lastModified" : "03/03/19 07:22:53",
+  "startTime" : "03/01/19 11:48:14",
+  "originalStartTime" : "03/01/19 11:48:14",
+  "originalDuration" : 2252000,
+  "elevationGain" : 30.48,
+  "hasGps" : false,
+  "shouldFetchDetails" : false
+}]
